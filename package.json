@@ -8,7 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "bundle:ios": "react-native bundle --dev false --platform ios --entry-file index.js --reset-cache --bundle-output main.jsbundle --sourcemap-output main.jsbundle.map --minify false"
+    "bundle:ios": "react-native bundle --dev false --platform ios --entry-file index.js --reset-cache --bundle-output main.jsbundle --sourcemap-output main.jsbundle.map --minify false",
+    "ios:release": "react-native run-ios --configuration Release"
   },
   "dependencies": {
     "@sentry/react-native": "4.8.0",
